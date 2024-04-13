@@ -205,6 +205,8 @@ const defaultBuiltinExtensions = {
     // fr: waw 3d physics!!
     // fr3d:
     fr3d: () => require('../extensions/fr_3d')
+    // bumpy joe
+    clock_joeu: () => require('../extensions/clock_joeu') 
 };
 
 const coreExtensionList = Object.getOwnPropertyNames(defaultBuiltinExtensions);
