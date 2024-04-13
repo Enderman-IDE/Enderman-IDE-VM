@@ -6,7 +6,7 @@
 
 
     if (!Scratch.extensions.unsandboxed) {
-        alert("This extension needs to be unsandboxed to run!")
+        alert("joe needs to go out of the sandbox, hes bored")
         return
     }
 
